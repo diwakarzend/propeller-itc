@@ -1,0 +1,538 @@
+ 
+ 
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*********************** nav start***********************/
+
+
+
+
+
+/***********************nav end***********************/
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+.wrap {width: 90%; margin: 0 auto;}
+
+.befor-hedline {text-align: left; font: normal normal bold 35px/46px DM Sans; letter-spacing: -1.05px; color: #EAAA37;}
+.befor-hedline2 {text-align: center;  font: normal normal 300 25px/45px Lato; letter-spacing: 0px; padding-bottom: 10px; text-align: center;}
+.headline { font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+.headline2 { font: normal normal bold 50px/80px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+.headline2-left { font: normal normal bold 50px/65px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; }
+.sub-healine {text-align: left; font-size: 20px; letter-spacing: 0px; color: #2E2E2E; font-family:lato; line-height: 30px; font-weight: normal;}
+ .white-sub-heading {text-align: left; font-size: 25px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
+
+
+
+.line {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 18px 0; display: inline-block;}
+.line-center {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 30px auto; text-align: center!important;display:inline-block }
+
+.pera {text-align: left; font: normal normal normal 15px/25px Lato; letter-spacing: 0px; color: #2E2E2E; padding-top: 50px;}
+
+.coloum { column-count: 2;
+    column-gap: 68px;}
+
+.white-headline { font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #FFFFFF;}
+.white-sub-heading {text-align: left; font-size: 20px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
+.white-pera {text-align: left;font: normal normal 300 15px/25px Lato; letter-spacing: 0px; color: #ffffff; padding-top: 20px;}
+#nav {background:none; position: absolute; top:0 ; left: 0;z-index: 999; width: 100%; }
+.logo {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:0 0 100px 100px;opacity: 1;width: 150px;height: 180px; position: absolute; left:50%; margin-left: -80px; display: flex; justify-content: center; align-items: center;}
+.logo img {text-align: center;display: inline-block; width: 70%;}
+
+
+.hader-nav ul li a{color: #fff;font: normal normal bold 14px/18px Lato; letter-spacing: 0px; color: #FFFFFF;
+text-transform: uppercase; opacity: 1; display:inline-block; padding: 12px; border-bottom:3px solid transparent;
+opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s ease;}
+
+/***********************banner start***********************/
+
+
+
+.banner-content h1 {font: normal normal bold 60px/70px DM Sans;letter-spacing: -2.1px;color: #FFFFFF; padding-top: 30px;}
+.banner-content p {text-align: center; font: normal normal normal 25px/40px Lato; letter-spacing: 0px;color: #FFFFFF;}
+
+
+/***********************banner end***********************/
+
+/*********************** vision start***********************/
+
+
+.vision-second h1 { font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #FFFFFF;}
+.vision-second h2 { text-align: left;font: normal normal 300     20px/30px Lato;letter-spacing: 0px;color: #FFFFFF; padding-top: 10px;}
+.vision-second h2 span { font: normal normal bold 20px/30px Lato;}
+
+
+/*********************** vision end***********************/
+
+/*********************** about end***********************/
+
+.about h1{ font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+.brand a {background: #004AAD ;border-radius: 25px 0px;font: normal normal bold 16px/21px DM Sans;
+    letter-spacing: 0px;color: #FFFFFF; padding: 15px; display: inline-block; }
+.brand ul li  { float: left; cursor: pointer; padding: 10px 5px;}
+.brand ul li img  { width: 80%;}
+/*********************** about end***********************/
+
+/*********************** who start***********************/
+.who-content-right {width: 50%; background: #012B64;display: block; padding: 50px 70px; display:flex; justify-content: center; }
+.mark {position: absolute; bottom:0 ; left:0; z-index: 999!important; transform: translateX(-80px);}
+.mark img {width: 65%;}
+
+/*********************** who end***********************/
+
+/*********************** team start***********************/
+
+.our-team-card-content {width: 100%; background: #373737; border:#a7a7a714 solid 0px; height: 572px; padding: 33px 24px;text-align: center;display: inline-block;  }
+.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align: center; }
+.team-img  img {width: 70%;}
+
+
+
+
+
+/*********************** team end***********************/
+
+/*********************** categories start***********************/
+.categories-card {background: transparent url('img/Rectangle 56.png') 0% 0% no-repeat padding-box; box-shadow: 0px 2px 3px #00000014; border: 2px solid #92929233; border-radius: 0px 0px 0px 36px;width: 188px; height: 211px; padding: 20px; margin: 6px;  }
+.categories-card-img {width: 144px; height: 107px; }
+.categories-card-img img { width: 80%;}
+/*********************** categories end***********************/
+
+/*********************** footer end***********************/
+.flag-add img {width: 70%;  }
+.hide {visibility:hidden;}
+
+/*********************** footer end***********************/
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) 
+
+{
+    .wrap {width: 90%; margin: 0 auto;}
+
+    .befor-hedline {text-align: left; font: normal normal bold 35px/46px DM Sans; letter-spacing: -1.05px; color: #EAAA37;}
+    .befor-hedline2 {text-align: center;  font: normal normal 300 25px/45px Lato; letter-spacing: 0px; padding-bottom: 10px; text-align: center;}
+    .headline { font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+    .headline2 { font: normal normal bold 50px/80px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+    .headline2-left { font: normal normal bold 50px/65px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; }
+    .sub-healine {text-align: left; font-size: 20px; letter-spacing: 0px; color: #2E2E2E; font-family:lato; line-height: 30px; font-weight: normal;}
+     .white-sub-heading {text-align: left; font-size: 25px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
+    
+    
+    
+    .line {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 18px 0; display: inline-block;}
+    .line-center {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 30px auto; text-align: center!important;display:inline-block }
+    
+    .pera {text-align: left; font: normal normal normal 15px/25px Lato; letter-spacing: 0px; color: #2E2E2E; padding-top: 50px;}
+    
+    .coloum { column-count: 2;
+        column-gap: 68px;}
+    
+    .white-headline { font: normal normal bold 60px/81px DM Sans; letter-spacing: -2.1px; color: #FFFFFF;}
+    .white-sub-heading {text-align: left; font-size: 20px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
+    .white-pera {text-align: left;font: normal normal 300 15px/25px Lato; letter-spacing: 0px; color: #ffffff; padding-top: 20px;}
+    #nav {background:none; position: absolute; top:0 ; left: 0;z-index: 999; width: 100%; }
+
+
+    /* ************* nav start*************/
+
+    .logo {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:0 0 100px 100px;opacity: 1;width: 150px;height: 180px; position: absolute; left:50%; margin-left: -80px; display: flex; justify-content: center; align-items: center;}
+    .logo img {text-align: center;display: inline-block; width: 70%;}
+    
+#nav {background:none; position: absolute; top:0 ; left: 0;z-index: 999; width: 100%; }
+.logo {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:0 0 100px 100px;opacity: 1;width: 200px;height: 217px; position: absolute; left:50%; margin-left: -100px; display: flex; justify-content: center; align-items: center; z-index: -1;}
+.logo img {text-align: center;display: inline-block;}
+.hader-nav { width: 100%;background: #012B64; position: absolute; top: 100px; left: 0; transform: translateY(-100px);z-index: -1; display: none; }
+.hader-nav ul { margin: 0 0 0 0; padding: 100px 0 0 0; text-align:center; }
+.hader-nav ul li {float:none ; display:block; }
+.hader-nav ul li:nth-child(1) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(2) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(3) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(4) {float:none; display: block ;  }
+
+.hader-nav ul li a{color: #fff;font: normal normal bold 15px/18px Lato; letter-spacing: 0px; color: #FFFFFF;
+text-transform: uppercase; opacity: 1; display:block; padding: 20px; border-bottom:3px solid transparent;
+opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s ease;}
+
+.hader-nav ul li a:hover{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 0px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important}
+
+/* .hader-nav ul li a:active{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 25px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important} */
+
+.hader-nav ul li a.active{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 0px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important}
+    
+/* .hader-nav ul li a{color: #fff;font: normal normal bold 14px/18px Lato; letter-spacing: 0px; color: #FFFFFF;
+text-transform: uppercase; opacity: 1; display:inline-block; padding: 12px; border-bottom:3px solid transparent;
+ opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s ease;} */
+
+ #menu-bar {display: none;}
+.respnse {font-size: 50px; color:#fff; cursor: pointer; margin-top: 50px ; display: block; transform: translateY(-20px); z-index: 999!important;}
+
+
+#menu-bar:checked ~ .hader-nav {display: block;}
+
+/* ************* nav end *************/
+/*********************** team start***********************/
+
+.our-team-card-content {width: 100%; background: #373737; border:#a7a7a714 solid 0px; height: 572px; padding: 33px 24px;text-align: center;display: inline-block;  }
+.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align: center; }
+.team-img  img {width: 70%;}
+.our-team {width: 100%; display:inline-block; justify-content: center; flex-direction:column!important ; }
+.our-team-card {width: 50%; background: #373737; border:#a7a7a714 solid 2px; height: 572px;float: left; }
+
+
+
+
+
+/*********************** team end***********************/
+/*********************** who start***********************/
+#who-id {width: 100%;}
+.who {width: 100%; text-align: center; }
+.who-content {width: 100%;  display:block; justify-content: center; }
+.who-content-left {width: 100%; float: right;}
+.who-content-left img {object-fit:cover; width: 100%; height: 100%; }
+.who-content-right {width: 100%; background: #012B64;display: block; padding: 150px 180px; display:flex; justify-content: center; align-items:center; position: relative; float: left;}
+.who-content-center { width: auto; }
+.mark {position: absolute; bottom:0 ; left:0; z-index: 999!important; transform: translateX(-120px);}
+
+/*********************** who end***********************/
+
+/*********************** footer end***********************/
+#footer-id {width: 100%; background: #012B64 0% 0% no-repeat padding-box; float: left; padding-bottom: 70px;}
+.footer {width: 100%; float: left; display:block; justify-content: center; border-bottom:solid 1px rgba(255, 255, 255, 0.192); padding-bottom: 3    0px; }
+.footer-left {width: 100%; }
+.footer-box {width: 50%; padding: 70px 0; float: left; text-align: center; }
+.footer-box h1 {text-align: center; font: normal normal bold 20px/45px DM Sans; letter-spacing: 0px; color: #EAAA37; text-transform: uppercase; }
+
+.footer-box ul  {list-style: none; margin: 0px; pad: 0px; text-align: center; }
+.footer-box ul li { float: none;}
+.footer-box ul li a {text-align: left; font: normal normal normal 15px/28px Lato; letter-spacing: 0px; color: #FFFFFF;}
+.footer-center {width: 100%; text-align: center;float: left; }
+.footer-center p {text-align: center;  font: normal normal normal 15px/28px Lato; letter-spacing: 0px; color: #FFFFFF;display:inline-block ; padding-top: 300px; padding: 350px 20px 0 20px;}
+
+.footer-center ul {list-style: none; margin: 0px; padding:20px 0 0 0;}
+.footer-center ul li {display: inline-block;}
+.footer-center ul li  a {background: #ffffff28 0% 0% no-repeat padding-box;width: 47px;height: 47px; line-height: 47px; display: inline-block; border-radius: 100px; color:#fff; text-align: center; margin: 5px;}
+
+
+
+.footer-right {width: 100%; float: left;}
+
+.footer-address {width: 100%;float: left; padding-top: 70px; display:block;  justify-content: space-between;align-items: flex-start;}
+.footer-address-left {width: 100%; float: none; text-align: center;}
+.footer-address-left  h1 {text-align:center; font: normal normal bold 20px/45px DM Sans; letter-spacing: 0px; color: #EAAA37; text-transform: uppercase; }
+
+.footer-address-right {width: 30%; float: left;}
+.footer-flag {width: 40%;float: left;display: flex; justify-content: space-between; margin: 30px;}
+.flag-add {width: 15%;  }
+.footer-flag-add {width: 85%;float: left;}
+.footer-flag-add-top {width: 100%;float: left; display: flex; justify-content: space-between;   padding-bottom:30px}
+.footer-flag-add-top i {font-size: 20px; color:#EAAA37; margin-right: 8px;}
+.footer-flag-add-top p {text-align: left; font: normal normal normal 15px/20px Lato; letter-spacing: 0px; color: #FFFFFF;}
+.flag-contact { width: 100%; float: left; }
+.flag-contact ul { list-style: none; margin: 0px; padding: 0px;  }
+.flag-contact ul li {float: left!important; padding-bottom: 9px; margin-left: 25px;}
+.flag-contact ul li a { font: normal normal normal 15px/20px Lato; letter-spacing: 0px; color: #FFFFFF; }
+.flag-contact ul li i {font-size: 20px; color:#EAAA37; margin-right: 8px;}
+
+.logo2 {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:100px;opacity: 1;width: 200px;height: 317px; position: absolute; left:50%; margin-left: -100px; display: flex; justify-content: center; align-items: center;}
+
+
+
+
+
+
+.hide {visibility:hidden;}
+
+/*********************** footer end***********************/
+    
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) 
+
+{
+    .wrap {width: 90%; margin: 0 auto;}
+
+    .befor-hedline {text-align: left; font: normal normal bold 35px/46px DM Sans; letter-spacing: -1.05px; color: #EAAA37;}
+    .befor-hedline2 {text-align: center;  font: normal normal 300 25px/45px Lato; letter-spacing: 0px; padding-bottom: 10px; text-align: center;}
+    .headline { font: normal normal bold 40px/81px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+    .headline2 { font: normal normal bold 50px/80px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+    .headline2-left { font: normal normal bold 50px/65px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; }
+    .sub-healine {text-align: left; font-size: 19px; letter-spacing: 0px; color: #2E2E2E; font-family:lato; line-height: 30px; font-weight: normal;}
+     .white-sub-heading {text-align: left; font-size: 25px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
+    
+    
+    
+    .line {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 18px 0; display: inline-block;}
+    .line-center {border: 2px solid #EAAA37;width: 100px; height: 5px; background: #EAAA37; border-radius: 10px; margin: 30px auto; text-align: center!important;display:inline-block }
+    
+  .pera {text-align: left; font: normal normal normal 15px/25px Lato; letter-spacing: 0px; color: #2E2E2E; padding-top: 50px;}
+    
+ .coloum { column-count: 1;
+        column-gap: 68px;}
+    
+ .white-headline { font: normal normal bold 40px/81px DM Sans; letter-spacing: -2.1px; color: #FFFFFF;}
+ .white-sub-heading {text-align: left; font-size: 20px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px;  font-weight: normal;}
+ .white-pera {text-align: left;font: normal normal 300 15px/25px Lato; letter-spacing: 0px; color: #ffffff; padding-top: 20px;}
+  #nav {background:none; position: absolute; top:0 ; left: 0;z-index: 999; width: 100%; }
+
+
+    /* ************* nav start*************/
+
+ .logo {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:0 0 100px 100px;opacity: 1;width: 150px;height: 180px; position: absolute; left:50%; margin-left: -80px; display: flex; justify-content: center; align-items: center;}
+ .logo img {text-align: center;display: inline-block; width: 70%;}
+    
+#nav {background:none; position: absolute; top:0 ; left: 0;z-index: 999; width: 100%; }
+.logo {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:0 0 100px 100px;opacity: 1;width: 200px;height: 217px; position: absolute; left:50%; margin-left: -100px; display: flex; justify-content: center; align-items: center; z-index: -1;}
+.logo img {text-align: center;display: inline-block;}
+.hader-nav { width: 100%;background: #012B64; position: absolute; top: 100px; left: 0; transform: translateY(-100px);z-index: -1; display: none; }
+.hader-nav ul { margin: 0 0 0 0; padding: 100px 0 0 0; text-align:center; }
+.hader-nav ul li {float:none ; display:block; }
+.hader-nav ul li:nth-child(1) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(2) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(3) {float:none; display: block ;  }
+.hader-nav ul li:nth-child(4) {float:none; display: block ;  }
+
+.hader-nav ul li a{color: #fff;font: normal normal bold 15px/18px Lato; letter-spacing: 0px; color: #FFFFFF;
+text-transform: uppercase; opacity: 1; display:block; padding: 20px; border-bottom:3px solid transparent;
+opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s ease;}
+
+.hader-nav ul li a:hover{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 0px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important}
+
+/* .hader-nav ul li a:active{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 25px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important} */
+
+.hader-nav ul li a.active{ border-bottom:3px solid #EAAA37;background:#004AAD;border-radius: 0px 0px 0px 0px;}
+.contact-btn {background:#EAAA37!important}
+    
+/* .hader-nav ul li a{color: #fff;font: normal normal bold 14px/18px Lato; letter-spacing: 0px; color: #FFFFFF;
+text-transform: uppercase; opacity: 1; display:inline-block; padding: 12px; border-bottom:3px solid transparent;
+ opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s ease;} */
+
+ #menu-bar {display: none;}
+.respnse {font-size: 50px; color:#fff; cursor: pointer; margin-top: 50px ; display: block; transform: translateY(-20px); z-index: 999!important;}
+
+
+#menu-bar:checked ~ .hader-nav {display: block;}
+
+/* ************* nav end *************/
+
+/***********************banner start***********************/
+
+
+
+.banner-content h1 {font: normal normal bold 40px/70px DM Sans;letter-spacing: -2.1px;color: #FFFFFF; padding-top: 30px;}
+.banner-content p {text-align: center; font: normal normal normal 20px/40px Lato; letter-spacing: 0px;color: #FFFFFF;}
+
+
+/***********************banner end***********************/
+
+/*********************** vision start***********************/
+.vision {width: 100%; display: block; justify-content: space-around; align-items: center; }
+.vision-logo {width:100%; padding-top: 80px; }
+.vision-logo  img {width: 50%;}
+
+
+.vision-second {width: 100%; padding: 80px 0;}
+
+.vision-second h1 { font: normal normal bold 40px/81px DM Sans; letter-spacing: -2.1px; color: #FFFFFF;}
+.vision-second h2 { text-align: left;font: normal normal 300     20px/30px Lato;letter-spacing: 0px;color: #FFFFFF; padding-top: 10px;}
+.vision-second h2 span { font: normal normal bold 20px/30px Lato;}
+
+
+/*********************** vision end***********************/
+
+/*********************** about end***********************/
+#about-id {width: 100%; padding: 78px 0;}
+.about {width: 100%; text-align: center!important;}
+.about h1{ font: normal normal bold 40px/81px DM Sans; letter-spacing: -2.1px; color: #2E2E2E; text-align: center;}
+
+.about h3{ text-align: center; font: normal normal medium 50px/33px DM Sans; letter-spacing: 0px; color: #2E2E2E; opacity: 1;}
+
+.brand { width: 100%; padding-top: 68px; display: block; justify-content: space-between;align-items:center; float: left;}
+.brand a {background: #004AAD ;border-radius: 25px 0px;font: normal normal bold 16px/21px DM Sans;
+    letter-spacing: 0px;color: #FFFFFF; padding: 20px; display: inline-block; margin: 0 auto; }
+
+.brand ul {list-style: none; margin: 0px; padding:0px ; padding-top: 50px;}
+.brand ul li  { float: left; cursor: pointer; padding: 20px;}
+
+
+
+
+/*********************** about end***********************/
+
+/*********************** purpos start***********************/
+#purpos-id {width:100% ; padding: 80px 0; float: left;}
+.purpos {width:100%; text-align: center; float: left;}
+/*********************** purpos end***********************/
+
+
+/*********************** team start***********************/
+
+.our-team-card-content {width: 100%; background: #373737; border:#a7a7a714 solid 0px; height: 572px; padding: 33px 24px;text-align: center;display: inline-block;  }
+.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align: center; }
+.team-img  img {width: 70%;}
+.our-team {width: 100%; display:inline-block; justify-content: center; flex-direction:column!important ; }
+.our-team-card {width: 50%; background: #373737; border:#a7a7a714 solid 2px; height: 572px;float: left; }
+
+
+
+
+
+/*********************** team end***********************/
+/*********************** who start***********************/
+
+.who-content-right {width: 100%; background: #012B64;display: block; padding: 90px 90px!important ; display:block; justify-content: center; align-items:center; }
+
+.mark {position: absolute; bottom:0 ; left:0; z-index: 999!important; transform: translateX(-100px);}
+
+/*********************** who end***********************/
+
+/*********************** team start***********************/
+
+.our-team-card-content {width: 100%; background: #373737; border:#a7a7a714 solid 0px; height: 572px; padding: 33px 24px;text-align: center;display: inline-block;  }
+.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align: center; }
+.team-img  img {width: 70%;}
+.our-team {width: 100%; display:inline-block; justify-content: center; flex-direction:column!important ; }
+.our-team-card {width: 100%; background: #373737; border:#a7a7a714 solid 2px; height: 572px;float: left; }
+
+
+
+
+
+/*********************** team end***********************/
+
+/*********************** manager start***********************/
+
+.product {width: 100%;display: flex; justify-content: center; align-items :center; flex-wrap: wrap;}
+
+/*********************** manager end***********************/
+
+/*********************** Featured end***********************/
+#featured-id {width: 100%;border-radius: 0px 0px 0px 250px; background:#f7f7f7; padding:150px 0}
+.featured {width: 100%; display: block; justify-content: space-between; align-items: center; }
+.featured-left {width: 100%;}
+
+.slide-show {width:100% ; display: flex; justify-content: end;}
+.slide-card {background: transparent url('img/Rectangle 50.png') 0% 0% no-repeat padding-box; box-shadow: 0px 2px 3px #00000014; border-radius: 0px 0px 0px 36px;width: 314px; height: 342px; margin:20px; display: inline-flex; justify-content: center; padding: 40px; position: relative;  }
+.slide-product  {width: auto; text-align: center; ;}
+.slide-product img {  width: auto;}
+.slide-product h1 { text-align: center; font: normal normal bold 20px/27px Lato; letter-spacing: 0px; color: #2E2E2E; padding-top: 30px;}
+
+.next-btn {position: absolute; top: 50%; left: -30px; background: #929292 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000014;width: 58px;height: 58px; border-radius: 100px; margin-top: -20px; line-height:58px; text-align: center; }
+.next-btn i { font-size: 20px; color:#fff;}
+.pervious-btn {position: absolute; top: 50%; right: -30px; background: #EAAA37 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #EAAA37;width: 58px;height: 58px; border-radius: 100px; margin-top: -20px; line-height:58px; text-align: center;}
+
+.pervious-btn i { font-size: 20px; color:#fff;}
+
+
+
+/*********************** Featured end***********************/
+
+
+/*********************** categories end***********************/
+
+
+/*********************** help start***********************/
+
+
+.contant {width: 100%; display: block; justify-content: space-around; padding-bottom: 50px;  }
+.contant-left {width: 100%;  }
+
+
+.contant-right {width: 100%;  }
+
+
+.term {width: 100%; justify-content: space-around; align-items: flex-start; display: block; padding-bottom: 80px; }
+.term-left {width: 100%; display: block; justify-content: space-between; float: left;  }
+.term-left input {outline: #cecece;width: 18px;height: 21px;  }
+.term-left p  {text-align: left; font: normal normal 300 15px/19px Lato; letter-spacing: 0px; margin-left: 30px; }
+.btn-right {width: 100%; float: left;    }
+.btn-right a  {font: normal normal bold 15px Lato; letter-spacing: 0px; color: #FFFFFF; text-transform: uppercase;background: #EAAA37 0% 0% no-repeat padding-box; padding:30px; display:block; text-align: center; width: 100%; margin: 30px 0; }
+.btn-right a i { padding-left: 30px; }
+
+
+
+
+
+/* .btn-right-send  {width: 223px; height: 60px; line-height: 60px;background: #EAAA37 0% 0% no-repeat padding-box;font: normal normal bold 15px/18px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;   } */
+
+
+/*********************** help end***********************/
+
+/*********************** footer end***********************/
+#footer-id {width: 100%; background: #012B64 0% 0% no-repeat padding-box; float: left; padding-bottom: 70px;}
+.footer {width: 100%; float: left; display:block; justify-content: center; border-bottom:solid 1px rgba(255, 255, 255, 0.192); padding-bottom: 3    0px; }
+.footer-left {width: 100%; }
+.footer-box {width: 50%; padding: 70px 0; float: left; text-align: center; }
+.footer-box h1 {text-align: center; font: normal normal bold 20px/45px DM Sans; letter-spacing: 0px; color: #EAAA37; text-transform: uppercase; }
+
+.footer-box ul  {list-style: none; margin: 0px; pad: 0px; text-align: center; }
+.footer-box ul li { float: none;}
+.footer-box ul li a {text-align: left; font: normal normal normal 15px/28px Lato; letter-spacing: 0px; color: #FFFFFF;}
+.footer-center {width: 100%; text-align: center;float: left; }
+.footer-center p {text-align: center;  font: normal normal normal 15px/28px Lato; letter-spacing: 0px; color: #FFFFFF;display:inline-block ; padding-top: 300px; padding: 350px 20px 0 20px;}
+
+.footer-center ul {list-style: none; margin: 0px; padding:20px 0 0 0;}
+.footer-center ul li {display: inline-block;}
+.footer-center ul li  a {background: #ffffff28 0% 0% no-repeat padding-box;width: 47px;height: 47px; line-height: 47px; display: inline-block; border-radius: 100px; color:#fff; text-align: center; margin: 5px;}
+
+
+
+.footer-right {width: 100%; float: left;}
+
+.footer-address {width: 100%;float: left; padding-top: 70px; display:block;  justify-content: space-between;align-items: flex-start;}
+.footer-address-left {width: 100%; float: none; text-align: center;}
+.footer-address-left  h1 {text-align:center; font: normal normal bold 20px/45px DM Sans; letter-spacing: 0px; color: #EAAA37; text-transform: uppercase; }
+
+.footer-address-right {width: 30%; float: left;}
+.footer-flag {width: 100%;float: left;display: block; justify-content: space-between; margin: 30px;}
+.flag-add {width: 15%; margin-bottom: 30px;  }
+.footer-flag-add {width: 85%;float: left;}
+.footer-flag-add-top {width: 100%;float: left; display: flex; justify-content: space-between;   padding-bottom:30px}
+.footer-flag-add-top i {font-size: 20px; color:#EAAA37; margin-right: 8px;}
+.footer-flag-add-top p {text-align: left; font: normal normal normal 15px/20px Lato; letter-spacing: 0px; color: #FFFFFF;}
+.flag-contact { width: 100%; float: left; }
+.flag-contact ul { list-style: none; margin: 0px; padding: 0px;  }
+.flag-contact ul li {float: left!important; padding-bottom: 9px; margin-left: 25px;}
+.flag-contact ul li a { font: normal normal normal 15px/20px Lato; letter-spacing: 0px; color: #FFFFFF; }
+.flag-contact ul li i {font-size: 20px; color:#EAAA37; margin-right: 8px;}
+
+.logo2 {background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 1px 3px #00000017; border-radius:100px;opacity: 1;width: 200px;height: 317px; position: absolute; left:50%; margin-left: -100px; display: flex; justify-content: center; align-items: center;}
+
+
+
+
+
+
+.hide {visibility:hidden;}
+    
+}
+
+
+
+ 
+ 
+
+
+
+
+
