@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -14,6 +14,10 @@
 
     <!-- Media Query css -->
     <link rel="stylesheet" href="css/media-query.css">
+
+
+    <!--slider CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <!-- fontawesome -->
     <!-- 
@@ -25,11 +29,17 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+rERC5b4PoR51qWEvAWuJsX6yRVRBvRVta7=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 
- 
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+
     <title>Document</title>
 </head>
 
@@ -68,7 +78,7 @@
                     <div class="banner-content">
                         <a href="">Propeller Distribution ICT</a>
                         <h1>Trust and Trustworthiness</h1>
-                        <p>We have over 25 years of expertise and knowledge working <br> in the ICT Industry</p>
+                        <p>Professionally Managed by entrepreneurs expert in <br> multiple domains for two decades.</p>
                     </div>
 
 
@@ -123,9 +133,27 @@
                     </p>
                 </div>
                 <div class="brand">
-                    <a href="">Product Brands</a>
 
-                    <ul>
+                    <div class="left-brand">
+                        <a href="">Product Brands</a>
+                    </div>
+
+
+                    <div class="right-brand">
+                        <div class="carousel" data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>
+                            <div class="carousel-cell gap"><img src="images/l-1.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-2.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-3.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-4.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-5.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-6.png" alt=""></div>
+                            <div class="carousel-cell gap"><img src="images/l-7.png" alt=""></div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- <ul>
                         <li><img src="images/l-1.png" alt=""></li>
                         <li><img src="images/l-2.png" alt=""></li>
                         <li><img src="images/l-3.png" alt=""></li>
@@ -133,14 +161,16 @@
                         <li><img src="images/l-5.png" alt=""></li>
                         <li><img src="images/l-6.png" alt=""></li>
                         <li><img src="images/l-7.png" alt=""></li>
-                    </ul>
+                    </ul> -->
                 </div>
+
+
 
             </div>
         </section>
         <!-- about us end -->
         <!-- who us start -->
-        <section>
+        <section id="who-id">
             <div class="wrap">
                 <div class="who">
                     <h1 class="headline">Who We Are</h1>
@@ -396,10 +426,10 @@
 
                     <div class="product-card">
                         <div class="product-img">
-                            <img src="images/logo 2.png" alt="">
+                            <img src="images/t-3a.png" alt="">
                         </div>
                         <h1>Amandeep Singh</h1>
-                        <p>Partner UAE Market</p>
+                        <p>Advisor UAE and GCC</p>
                     </div>
                     <!-- card 1 -->
                     <!-- card 1 -->
@@ -423,6 +453,28 @@
                     </div>
                     <!-- card 1 -->
 
+                    <!-- card 1 -->
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="images/t-2a.png" alt="">
+                        </div>
+                        <h1>Haridev</h1>
+                        <p>Distribution Services</p>
+                    </div>
+                    <!-- card 1 -->
+
+                    <!-- card 1 -->
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="images/t-4.png" alt="">
+                        </div>
+                        <h1>Sunil chaudhary</h1>
+                        <p>Chief - Administration</p>
+                    </div>
+                    <!-- card 1 -->
+
                     <!-- row 1 -->
                 </div>
             </div>
@@ -432,6 +484,86 @@
 
         <!-- Featured start -->
         <section id="featured-id">
+
+            <div class="slide-position">
+                <div class="slid">
+
+                    <div class="main-carousel" data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>
+                        <div class="carousel-cell ">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <div class="prd-img"><img src="images/p-1.png" alt="">
+                                    </div>
+                                    <!-- <img src="images/p-1.png" alt=""> -->
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+                        <div class="carousel-cell">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <div class="prd-img">
+                                        <img src="images/p-2.png" alt="">
+                                    </div>
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+                        <div class="carousel-cell">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <div class="prd-img">
+                                        <img src="images/p-3.png" alt="">
+                                    </div>
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+
+                        <div class="carousel-cell">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <img src="images/p-1.png" alt="">
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+
+                        <div class="carousel-cell">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <img src="images/p-2.png" alt="">
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+
+                        <div class="carousel-cell">
+                            <!-- card-1 -->
+                            <div class="slide-card">
+                                <div class="slide-product">
+                                    <img src="images/p-3.png" alt="">
+                                    <h1>Lenovo Monitor 66CBKAC1AE</h1>
+                                </div>
+                            </div>
+                            <!-- card-1 -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
             <div class="wrap">
                 <div class="featured">
                     <div class="featured-left">
@@ -440,27 +572,8 @@
                         <h3 class="line"></h3>
                     </div>
                     <div class="slide-show">
-<div class="slid">
 
-</div>
-                        <div class="slide-card">
-                            <a href="">
-                                <div class="next-btn"><i class="fa-solid fa-angle-left"></i></div>
-                            </a>
-                            <div class="slide-product">
-                                <img src="images/p-1.png" alt="">
-                                <h1>Lenovo Monitor 66CBKAC1AE</h1>
-                            </div>
-                        </div>
-                        <div class="slide-card">
-                            <a href="">
-                                <div class="pervious-btn"><i class="fa-solid fa-angle-right"></i></div>
-                            </a>
-                            <div class="slide-product">
-                                <img src="images/p-2.png" alt="">
-                                <h1>Lenovo Laptop ThinkPad</h1>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -695,19 +808,19 @@
                 </div>
 
                 <!-- flag 1 -->
-                
+
                 <div class="footer-flag">
                     <div class="flag-add"><img src="images/flag-1.png" alt=""></div>
                     <div class="footer-flag-add">
                         <div class="footer-flag-add-top">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Propeller Distribution LLC, C2, Ground Floor, Omaxe Gurgaon Mall, Sohna Road, Gurugram,
-                                Haryana 122002</p>
+                            <!-- <i class="fa-solid fa-location-dot"></i> -->
+                            <img src="images/marker.png">
+                            <p>B-2, Uni World Garden-2, Gurugram ( India )</p>
                         </div>
                         <div class="flag-contact">
                             <ul>
-                                <li><a href=""><i class="fa-solid fa-phone"></i>1800 5895 5555</a></li>
-                                <li><a href=""><i class="fa-solid fa-envelope"></i>contact@propeller.com</a></li>
+                                <li><a href=""><img src="images/phone-call.png" alt="">1800 5895 5555</a></li>
+                                <li><a href=""><img src="images/envelope.png" alt=""> contact@propeller.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -715,18 +828,21 @@
                 <!-- flag 1 -->
 
                 <!-- flag 1 -->
-                
+
                 <div class="footer-flag">
                     <div class="flag-add"><img src="images/flag-2.png" alt=""></div>
                     <div class="footer-flag-add">
                         <div class="footer-flag-add-top">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Propeller Distribution LLC, 105, Gold Wing, Al Mankhool, Bur, Dubai, UAE</p>
+                            <!-- <i class="fa-solid fa-location-dot"></i> -->
+                            <!-- <i class="fa-regular fa-location-pin"></i> -->
+                            <!-- <i class="fi fi-rr-phone-call"></i> -->
+                            <img src="images/marker.png">
+                            <p>105, gold Wing, AL Mankhool, BUR, Dubai (UAE)</p>
                         </div>
                         <div class="flag-contact">
                             <ul>
-                                <li><a href=""><i class="fa-solid fa-phone"></i>1800 5895 5555</a></li>
-                                <li><a href=""><i class="fa-solid fa-envelope"></i>contact@propeller.com</a></li>
+                                <li><a href=""><img src="images/phone-call.png" alt=""></i>1800 5895 5555</a></li>
+                                <li><a href=""> <img src="images/envelope.png" alt=""> contact@propeller.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -737,6 +853,8 @@
 
     </footer>
     <script src="js/index.js"></script>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
