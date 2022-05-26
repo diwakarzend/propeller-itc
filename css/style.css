@@ -9,6 +9,11 @@ a {text-decoration: none;}
 img {border:none}
 a, img {border:none}
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Holyhand-Script.otf);
+  }
+
 /* html tag */
 header, nav, hgroup, section, article, aside, figure, figcaption, audio, video, footer {margin: 0px; padding: 0px; display: block;}
 
@@ -25,7 +30,11 @@ header, nav, hgroup, section, article, aside, figure, figcaption, audio, video, 
 .sub-healine {text-align: left; font-size: 25px; letter-spacing: 0px; color: #2E2E2E; font-family:lato; line-height: 30px; font-weight: normal;}
  .white-sub-heading {text-align: left; font-size: 25px; letter-spacing: 0px; color: #FFFFFF; font-family:lato; line-height: 30px; font-weight: normal;}
 
+.font-style {font-family:myFirstFont!important; font-size: 40px!important; font-weight: 100!important; border:solid 3px #004AAD!important;padding-top: 40px!important; display: inline-block!important;}
+.font-style-2 {font-family:Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 20px!important; }
+.right {float: right;}
 
+.white-text { text-align: left;font: normal normal 300  25px/35px Lato;letter-spacing: 0px;color: #FFFFFF; padding-top: 20px;}
 
 .line {border: 2px solid #EAAA37;width: 150px; height: 8px; background: #EAAA37; border-radius: 10px; margin: 18px 0; display: inline-block;}
 .line-center {border: 2px solid #EAAA37;width: 150px; height: 8px; background: #EAAA37; border-radius: 10px; margin: 30px auto; text-align: center!important;display:inline-block }
@@ -195,7 +204,6 @@ opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s
 .product-card h1 {text-align: center; font: normal normal bold 20px/27px DM Sans; letter-spacing: 0px; color: #2E2E2E; padding-top: 20px;}
 .product-card p {text-align: center; font: normal normal normal 13px/27px Lato; letter-spacing: 0px; color: #2E2E2E;}
 .product-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 176px; height: 176px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align: center; }
-.product-img img{  }
 
 
 .product-card:hover {border: 2px solid #EAAA37; }

@@ -115,7 +115,7 @@ opacity: 1;background:none;border-radius: 25px 0px 0px 0px; transition: all 0.5s
 .hide {visibility:hidden;}
 .footer-flag {width: 40%;float: left;display: flex; justify-content: space-between; height: 150px;}
 .flag-contact { width: 100%; float: left; position: absolute; left: 0; bottom:0; }
-
+.flag-contact ul li {float:none!important; padding-bottom: 9px; margin-left: 0px!important;}
 /*********************** footer end***********************/
 
 
@@ -466,7 +466,7 @@ text-transform: uppercase; opacity: 1; display:inline-block; padding: 12px; bord
 /*********************** team start***********************/
 
 .our-team-card-content {width: 100%; background: #373737; border:#a7a7a714 solid 0px; height: 572px; padding: 33px 24px;text-align: center;display: inline-block;  }
-.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; text-align:  }
+.team-img {background: #FFF8EB 0% 0% no-repeat padding-box;width: 113px; height: 113px; border-radius:200px;  display: inline-flex; justify-content: center; align-items:center ; }
 .team-img  img {width: 70%;}
 .our-team {width: 100%; display:inline-block; justify-content: center; flex-direction:column!important ; }
 .our-team-card {width: 50%; background: #373737; border:#a7a7a714 solid 2px; height: 572px;float: left; }
