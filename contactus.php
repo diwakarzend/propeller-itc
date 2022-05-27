@@ -13,5 +13,5 @@ if(isset($_POST)){
 	$message .="Email : ".$_POST['Email']."<br>";
 	$message .="Mobile : ".$_POST['Mobile']."<br>";
 	$message .="Message : ".$_POST['Message']."<br>";
-	mail('mishraravi32@gmail.com',$subject,$message,$headers);
+	mail('dwkrupadhyay@gmail.com',$subject,$message,$headers);
 }
